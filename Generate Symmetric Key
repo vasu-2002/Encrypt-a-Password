@@ -1,0 +1,12 @@
+We use the fernet module in the cryptography package. It guarantees that no one can read the encrypted text without the symmetric key. 
+We generate a symmetric key using the generate_key() function of the fernet module.
+
+Fernet is an accessible and most useful secured primitive in the cryptography. It is suitable for small texts and files. 
+We cannot use it for more extensive texts in GB’s. It encrypts or decrypts the texts in the memory.
+
+The following code generates a symmetric key in SQL Notebook and prints it: 
+from cryptography.fernet import Fernet
+key = Fernet.generate_key()
+print(key)
+
+Output is a URL safe base64 encoded key. Note down the symmetric key and store it in a safe location.
