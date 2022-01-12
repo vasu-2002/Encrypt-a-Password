@@ -1,0 +1,8 @@
+We need to install a cryptography module in Python using pip command.
+
+Open SQL Notebook in Azure Data Studio and change the connection to Python 3 kernel:
+
+Now, click on add code and paste the following command:  'pip install cryptography'
+It installs the packages. Let’s use this package for encryption or the text using the symmetric key.
+
+For those not familiar with pip you can find more information on pip and the Python package index here: www.Pythonforbeginners.com/basics/how-to-use-pip-and-pypi.
